@@ -3,6 +3,7 @@
   "short_name": "LockScreen",
   "start_url": "/iphone-lock",
   "display": "standalone",
+  "display_override": ["fullscreen", "standalone"],
   "scope": "/iphone-lock",
   "background_color": "#000000",
   "theme_color": "#000000",
