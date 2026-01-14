@@ -28,11 +28,13 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    padding-bottom: env(safe-area-inset-bottom);
     overflow: hidden;
     background: #000;
     width: 100vw;
     height: 100vh;
     position: fixed;
+    min-height: -webkit-fill-available;
     top: 0;
     left: 0;
 }
