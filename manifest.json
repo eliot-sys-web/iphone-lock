@@ -1,7 +1,7 @@
 {
   "name": "iPhone Lock Screen",
   "short_name": "LockScreen",
-  "start_url": "/iphone-lock",
+  "start_url": "/iphone-lock/?standalone=true",
   "display": "standalone",
   "display_override": ["fullscreen", "standalone"],
   "scope": "/iphone-lock",
