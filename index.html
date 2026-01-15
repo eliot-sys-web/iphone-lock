@@ -90,13 +90,24 @@ body {
     border-color: white;
 }
 
-/* Zones tactiles invisibles sur le clavier */
 .touch-zone {
     position: absolute;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    z-index: 5;
     cursor: pointer;
+    z-index: 5;
+
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+
+    transition: transform 0.1s ease;
 }
+
+.touch-zone:active {
+    transform: scale(0.9);
+}
+
 
 /* Pour debug : afficher les zones */
 body.debug .touch-zone {
